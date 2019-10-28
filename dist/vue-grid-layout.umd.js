@@ -5459,12 +5459,12 @@ var interact = __webpack_require__("fb3a");
     dragIgnoreFrom: {
       type: String,
       required: false,
-      default: 'a, button'
+      default: 'input, a, textarea'
     },
     dragAllowFrom: {
       type: String,
       required: false,
-      default: null
+      default: '.artcle_set'
     },
     resizeIgnoreFrom: {
       type: String,
